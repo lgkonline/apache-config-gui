@@ -1,0 +1,38 @@
+{
+  "name": "apache-config-gui",
+  "version": "1.0.0",
+  "description": "A simple tool to manipulate the config for Apache web server.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "webpack -d --watch",
+    "build": "webpack -p"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "LGK",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "css-loader": "^0.28.0",
+    "electron": "~1.6.2",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "node-sass": "^4.5.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "sass-loader": "^6.0.3",
+    "webpack": "^2.3.3",
+    "webpack-target-electron-renderer": "^0.4.0"
+  }
+}
