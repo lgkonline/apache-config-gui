@@ -6,7 +6,8 @@
   "scripts": {
     "start": "electron .",
     "dev": "webpack -d --watch",
-    "build": "webpack -p"
+    "build": "webpack -p",
+    "release": "electron-packager . apache-config-gui --platform=win32 --arch=x64 --overwrite --icon=icon.ico"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -26,6 +27,7 @@
     "babel-preset-react": "^6.23.0",
     "css-loader": "^0.28.0",
     "electron": "~1.6.2",
+    "electron-packager": "^8.6.0",
     "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^0.11.1",
     "node-sass": "^4.5.2",
