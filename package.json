@@ -7,7 +7,7 @@
     "start": "electron .",
     "dev": "webpack -d --watch",
     "build": "webpack -p",
-    "release": "electron-packager . apache-config-gui --platform=win32 --arch=x64 --overwrite --icon=icon.ico"
+    "release": "node release.js"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
